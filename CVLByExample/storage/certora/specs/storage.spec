@@ -135,7 +135,7 @@ hook Sstore _customers[KEY address a].accounts[INDEX uint256 i].accountBalance u
     numOfOperations[a] = old_value + 1;
 }
 
-rule ghostStorageComparision() {
+rule ghostStorageComparison() {
     uint256 bankAccount;
     env e;
     require e.msg.value > 0; // balance should change by deposit.

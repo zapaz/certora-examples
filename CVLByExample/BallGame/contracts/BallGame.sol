@@ -1,5 +1,3 @@
-pragma solidity ^0.8.0;
-
 /**
  * Contract that models a game of keep away.  The contract keeps track of an
  * integer indicating which player holds a ball.
